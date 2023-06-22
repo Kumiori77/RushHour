@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUSHHOUR"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginBottom="80dp"
+       />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:backgroundTint="#ff0000"
+        android:layout_margin="20dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:backgroundTint="#ff0000"
+        android:layout_margin="20dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SETTING"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:backgroundTint="#ff0000"
+        android:layout_margin="20dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/records"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="RECORDS"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:backgroundTint="#ff0000"
+        android:layout_margin="20dp"
+        android:onClick="onClick"/>
+
+</LinearLayout>

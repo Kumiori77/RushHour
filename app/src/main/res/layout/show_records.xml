@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECORDS"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20pt"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOTO MENU"
+            android:textStyle="bold"
+            android:textSize="9pt"
+            android:backgroundTint="#ff0000"
+            android:layout_marginLeft="70dp"
+            android:onClick="gotoMenu"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:textStyle="bold"
+            android:textSize="5pt"
+            android:backgroundTint="#ff0000"
+            android:layout_marginLeft="20dp"
+            android:onClick="reset"></Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

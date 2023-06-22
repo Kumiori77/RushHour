@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="게임 설명"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20pt"
+        android:layout_margin="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. 블록들을 움직여서 빨간색 블록을 밖으로 탈출시키는 게임입니다."
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. 블록들은 세로 또는 가로 방향으로만 움직일 수 있습니다."
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. 블록끼리는 뛰어넘을 수 없습니다."
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. 빨간 블록을 탈출시키면 다음 레벨에 도전할 수 있고 레벨별로 최고기록이 저장됩니다."
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOTO MENU"
+        android:backgroundTint="#ff0000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="gotoMenu"/>
+
+</LinearLayout>

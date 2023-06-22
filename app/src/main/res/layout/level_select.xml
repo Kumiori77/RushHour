@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20pt"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="5"
+        android:layout_marginLeft="4dp"
+        >
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOTO MENU"
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:backgroundTint="#ff0000"
+        android:layout_margin="10dp"
+        android:onClick="gotoMenu"/>
+
+
+</LinearLayout>

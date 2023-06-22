@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTING"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:textSize="20pt"
+        android:layout_margin="40dp"/>
+
+    <Switch
+        android:id="@+id/bgm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="BGM"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:onClick="onClick"
+    />
+
+    <Switch
+        android:id="@+id/effect"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="효과음"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="테마"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"/>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type 1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onClick"/>
+        <RadioButton
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type 2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onClick"/>
+        <RadioButton
+            android:id="@+id/type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type 3"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:layout_marginHorizontal="10dp"
+            android:onClick="onClick"/>
+    </RadioGroup>
+
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_margin="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff0000"
+        android:text="완료"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="gotoMenu"/>
+
+</LinearLayout>
